@@ -1,0 +1,22 @@
+cropping: true
+downsampling: false
+downsampling_leaf_size: 0.005
+estimator: {always_success: true, broadcast_tf: true, cluster_tol: 0.05, iterations: 5,
+  neighbors: 20, object_calibration: false, publish_markers: true, rmse_thresh: 0.005,
+  spawn: false}
+keep_organized: false
+limit_xmax: 0.5
+limit_xmin: -0.5
+limit_ymax: 0.5
+limit_ymin: -0.5
+limit_zmax: 1.5
+limit_zmin: 0.3
+listener: {geometry_scale: 1.1, listen_left_arm: true, listen_left_hand: true, listen_right_arm: true,
+  listen_right_hand: true, publish_markers: true, remove_left_arm: true, remove_left_hand: true,
+  remove_right_arm: true, remove_right_hand: true, spawn: true}
+plane_tolerance: 0.005
+publish_limits: false
+segmenting: false
+sensor: {broadcast_identity_tf: false, internal: false, name: kinect2_optical_frame,
+  topic: /head_asus/head_asus/depth_registered/points}
+tracker: {broadcast_tf: true, publish_bounding_box: true, publish_markers: true, spawn: false}

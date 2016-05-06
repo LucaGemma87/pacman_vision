@@ -50,8 +50,8 @@ const static std::array<Box,7> lwr_arm{ {
        0.06,  0.094, 0.251), //Link5
   Box(-0.071, -0.08, -0.071,
        0.071, 0.056,  0.057), //Link6
-  Box(-0.04,  -0.04, -0.031,
-       0.04,  0.04,  0)} };  //Link7
+  Box(-0.062,  -0.062, -0.031,
+       0.062,  0.062,  0.04)} };  //Link7
 
 //Imu sensors and rubber gloves geometry
 const static Box glove(-0.004, -0.004, 0,

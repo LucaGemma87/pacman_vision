@@ -106,3 +106,5 @@ This project is mirrored on:
   * [Gitlab](https://gitlab.com/fspinelli/pacman_vision).
 
 
+configurazione Luca Gemma:
+roslaunch pacman_vision pacman_vision.launch run_rviz:=false load:=grasp_estimator
